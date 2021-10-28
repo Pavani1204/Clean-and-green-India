@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    border: none;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+ }
+ 
+ .bar {
+     display: flex;
+     justify-content: center;
+     height: 60px;
+     align-items: center;
+     background-color: black;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: white;
+ }
+
+ #button{
+    background-color: #ffcc00;
+    padding: 8px;
+}
+
+p{
+    font-size: 25px;
+}
+
+#home{
+    display: inline-block;
+    border: 1px solid black;     
+     justify-content: right;
+     height: 50px;
+     align-items: right;
+     background-color: darkgreen;
+  
+}
+
+#home p{
+    color: white;
+}
+
+
+#why{
+    display: inline-block;
+    border: 1px solid black;     
+     justify-content: right;
+     height: 220px;
+     align-items: right;
+     color: white;
+     background-color: gray;
+}
+
+#how{
+    display: inline-block;
+    border: 1px solid black;     
+     justify-content: center;
+     height: 180px;
+     align-items: center;
+     background-color: greenyellow;
+     top: 50%;
+     left: 50%;
+}
+
+#game{
+    display: inline-block;
+    border: 1px solid black;     
+     justify-content: center;
+     height: 435px;
+     align-items: center;
+     background-color: greenyellow;
+     top: 50%;
+     left: 50%;
+}
+
+#img1{
+   display: inline-block;
+   border: 1px solid black;
+   height: 200px;
+   width: 200px;
+   text-align: center;
+   margin: 2%;
+   padding: 2%;
+}
+
+#img11 {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+#img2{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+ }
+ 
+ #img22 {
+     display: inline-block;
+     height: 250px;
+     width: 250px;
+     text-align: center;
+     margin: 2%;
+     padding: 2%;
+ }
+
+ #img3{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+ }
+ 
+ #img33 {
+     display: inline-block;
+     height: 250px;
+     width: 250px;
+     text-align: center;
+     margin: 2%;
+     padding: 2%;
+ }
+
+ .img4{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+ }
+ 
+ .img44 {
+     display: inline-block;
+     height: 250px;
+     width: 250px;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+    
+ }
+
+ .img5{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+ }
+ 
+ .img55 {
+     display: inline-block;
+     height: 250px;
+     width: 250px;
+     text-align: center;
+     margin: 2%;
+     padding: 2%;
+ }
+
+
+ h1{
+    font-size: 70px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer{
+    height: 300px;
+    background-image: url(" http://i1.faceprep.in/prograd-junior/footer-bg.png");
+    background-size: 100% 100%;
+    color: white;
+    padding: 0% 5%;
+}
+
+footer img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+#details{
+    flex-direction: column;
+    text-align: right;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h2, h3, p{
+    font-family: 'Playfair Display', serif;
+}
+
+footer p{
+    font-size: medium;
+}
+
+p{
+    font-size: large;
+}
+
+
+@media only screen and (max-width: 600px){
+    header{
+        height: 200px;
+        font-size: 15px;
+        text-align: start;
+    }
+
+    header h1{
+        font-size: 4vh;
+    }
+
+    header h5{
+        font-size: 15px;
+    }
+
+    .header-text{
+        padding: 0% 60% 5% 5%;
+    }
+
+    body{
+        text-align: center;
+    }
+
+    .container{
+        justify-content: center;
+    }
+}
+
+#instructions {
+    font-size: 100px;
+}
+
+
+.button{
+    height: 50px;
+    width: 50px;
+    padding: 5px 5px;
+    font-size: 25px;
+    background-color: darkgreen;
+    color: wheat;
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Iteration 2: Using flex-wrap */
+.movies{
+   flex-wrap: wrap;
+   min-height: 300px;
+   margin: 3% 14%;
+
+}
+
+.button {
+    background-color: #F50A5F;
+    padding: 5px 15px;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: inline;
+    top: -100px;
+}
+
+
